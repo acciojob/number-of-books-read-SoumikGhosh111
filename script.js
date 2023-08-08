@@ -24,9 +24,8 @@ const numberOfBooksRead = () => {
 		if(book.hasOwnProperty('readingStatus') && book.readingStatus === true){
 			count++; 
 		}
-		return count; 
-
 	}
+	return count;
 };
 
 // Do not change the code below
